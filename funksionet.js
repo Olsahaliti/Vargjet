@@ -61,27 +61,27 @@
 //  //repat a word
 
 //  //gjeje numrin me te madh
- function numriMeIMadh(nr1,nr2){
-    if(nr1 > nr2) { 
-        return nr1;
-    }else if(nr1 = nr2) { 
-        return "numrat jane te barabarte";
-    }else{
-        return numri2;
-     }
-    }
-    console.log(numriMeIMadh(3,4))
+//  function numriMeIMadh(nr1,nr2){
+//     if(nr1 > nr2) { 
+//         return nr1;
+//     }else if(nr1 = nr2) { 
+//         return "numrat jane te barabarte";
+//     }else{
+//         return numri2;
+//      }
+//     }
+//     console.log(numriMeIMadh(3,4))
 
-     function repeatWord(fjala,numriPerseritjeve) {
-        if (fjala == "scantech") { 
-            console.log("nuk e printojme kete fjale");
-            return;
-        }
-        for(let i = 1;i<=numriPerseritjeve;i++) {
-            console.log(fjala);
-        }
-     }
-     repeatWord("mirjeta", 15);
-     repeatWord("mirjeta1234",10);
-     repeatWord("a",100);
-     repeatWord(12345,4);
+//      function repeatWord(fjala,numriPerseritjeve) {
+//         if (fjala == "scantech") { 
+//             console.log("nuk e printojme kete fjale");
+//             return;
+//         }
+//         for(let i = 1;i<=numriPerseritjeve;i++) {
+//             console.log(fjala);
+//         }
+//      }
+//      repeatWord("mirjeta", 15);
+//      repeatWord("mirjeta1234",10);
+//      repeatWord("a",100);
+//      repeatWord(12345,4);
